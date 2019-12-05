@@ -1,0 +1,53 @@
+//------------------------------------------//
+//                                          //
+//  Claro Henrique Silva Sales - 400552     //
+//  Letícia Saraiva Chaves     - 402120     //
+//                                          //
+//------------------------------------------//
+
+
+
+
+/////////////////EXECUÇÃO/////////////////
+
+Se não tiver o python 3 instalado, execute o seguinte comando no terminal (Linux):
+	sudo apt-get install python3.5
+
+Os códigos estão separados nos arquivos:
+	- Arquivos com implementações das buscas (Um arquivo para cada busca);
+	- Arquivo contendo todas as funções de um estado (gerar vizinhança, imprimir estado), as restrições e a função de avaliação;
+	- Arquivo contendo a aplicação principal e algumas funções (extras);
+
+Para entrar com um estado inicial específico é preciso que esse estado esteja 
+especificado no arquivo de texto 'input.txt'. Você pode altera-lo a vontade contanto que o número de turnos (colunas) seja 21.
+
+A técnica de busca padrão é a Hill Climbing. Para mudar a técnica de busca
+basta escolher a opção 5 (mudar os parametros da busca) no menu principal. 
+O mesmo pode ser feito para mudar a quantidade de enfermeiros.
+
+Para executar o programa, utilize o comando:
+	python enfermeiros_e_turnos.py 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
